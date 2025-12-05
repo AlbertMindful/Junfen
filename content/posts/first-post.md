@@ -1,7 +1,8 @@
 +++
 date = '2025-11-30T20:16:01+08:00'
-draft = true
+draft = false
 title = '第一篇blog'
+tag = ['欢迎']
 +++
 第一次写blog。
 
