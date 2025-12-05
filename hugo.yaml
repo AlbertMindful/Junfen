@@ -57,3 +57,10 @@ menu:
       name: 标签
       url: /tags/
       weight: 30
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # 👈 确保这里有 JSON
