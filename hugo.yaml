@@ -1,0 +1,59 @@
+title: "Junfen's blog"
+baseURL: "https://albertmindful.github.io/" 
+languageCode: "zh-cn"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildFuture: false
+buildDrafts: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: 我的博客
+  description: "Junfen Chen is a first-year computer science student who loves science and exploration."
+  keywords: [Blog, Tech, Life]
+  author: Junfen
+  # 默认主题颜色 (auto, dark, light)
+  defaultTheme: auto
+  # 禁用主题切换按钮
+  disableThemeToggle: false
+
+  # 首页配置
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: >
+      欢迎来到我的个人博客。
+      
+      这里记录我的存在。
+
+
+  
+  # 社交链接 (修改为你自己的)
+  socialIcons:
+    - name: github
+      url: "https://github.com/albertmindful"
+    - name: email
+      url: "mailto:cjf3146597348@gmail.com"
+
+  # 顶部导航栏
+  assets:
+    disableHLJS: false # 代码高亮
+  
+menu:
+  main:
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 10
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 20
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 30
