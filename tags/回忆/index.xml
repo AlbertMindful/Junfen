@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>回忆 on Junfen&#39;s blog</title>
+    <link>https://albertmindful.github.io/Junfen/tags/%E5%9B%9E%E5%BF%86/</link>
+    <description>Recent content in 回忆 on Junfen&#39;s blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 01 Dec 2025 20:39:13 +0800</lastBuildDate>
+    <atom:link href="https://albertmindful.github.io/Junfen/tags/%E5%9B%9E%E5%BF%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数据结构回忆录——链表</title>
+      <link>https://albertmindful.github.io/Junfen/posts/linked-list/</link>
+      <pubDate>Mon, 01 Dec 2025 20:39:13 +0800</pubDate>
+      <guid>https://albertmindful.github.io/Junfen/posts/linked-list/</guid>
+      <description>&lt;p&gt;两年前第一次接触数据结构与算法，草草了解过基础后就再也没有碰过它。这篇回忆录是关于链表的，我想写下与链表有关的那些事。&lt;/p&gt;
+&lt;p&gt;链表是我接触的第二个数据结构（第一个当然是数组）。还记得在高中的机房里，没有事情可做，就用C语言写链表打发时间。记得当时使用链表做的第一个小游戏是贪吃蛇。因为贪吃蛇的蛇是链式结构，所以很自然想到用链表，实际上，也可以用数组来做，不过C语言没有vector，使用原生数组是一件麻烦事。&lt;/p&gt;
+&lt;p&gt;来谈谈链表这种数据结构本身吧。
+在我的印象里，链表是tree的一个特例。
+当tree只有左子树或者右子树时，tree就成了一个链表。
+而tree又是graph的一个特例（逐渐偏离😛）。
+tree是自相似的，所以链表也是自相似的。&lt;/p&gt;
+&lt;p&gt;自相似是什么意思呢？它是说一个对象由更小规模的自己组成。
+举个例子，tree由一个根节点+左右子树（又是tree呢）组成。
+一个链表由一个节点+剩余节点构成的链表组成。
+简单来讲，就是套娃。&lt;/p&gt;
+&lt;p&gt;处理自相似结构的最佳工具当然是递归啦，因为递归正是利用问题的自相似结构来求解问题。
+而tree和链表天然就是自相似的，有什么理由不用递归来解决呢？
+我很喜欢递归，因为递归的代码总是优雅简洁又极具可读性。
+不过递归调用的开销较大，所以通常不会轻易地使用递归，除非问题难以用循环求解，
+且呈现出明显的自相似结构，才会使用递归。
+tree问题通常使用递归求解，因为用循环来处理较为困难且不具有可读性。
+链表问题因为结构简单，可以使用循环求解也可以使用递归，对于容易的问题，
+递归并不比循环优雅，所以通常用循环。&lt;/p&gt;
+&lt;p&gt;实际上递归是归纳法在计算机科学中的应用。（逐渐偏离。。。😛）。如果会归纳法，那么递归只是知识的迁移。
+用递归解决问题总是简单易懂的。
+举个例子，在链表中查找某个值，只需要：
+如果当前节点的值是要查找的值，那么就找到了，返回一个true。
+如果链表中没有节点，那么就没找到，返回一个false。
+如果当前节点的值不是要查找的值，那么就去剩下的部分找，
+对剩下部分构成的链表重复上面的步骤并将对剩下部分执行上面步骤后的结果作为最终结果返回。
+链表最常见的实现是将节点用指针或引用串起来的。教材上讲的也是这个。&lt;/p&gt;
+&lt;p&gt;嗯，到这里，关于链表的回忆就结束了，它不是什么复杂的数据结构，跟数组一样简洁、朴素，
+但对于我，它却比其他数据结构更值得回忆。
+要说原因的话，我想是我忘不了那些在学校的机房悠闲写代码的美好时刻。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>最小用力原则</title>
+      <link>https://albertmindful.github.io/Junfen/posts/least_energe/</link>
+      <pubDate>Sun, 30 Nov 2025 20:34:51 +0800</pubDate>
+      <guid>https://albertmindful.github.io/Junfen/posts/least_energe/</guid>
+      <description>&lt;p&gt;我的行为一直遵循最小用力原则，简单来说就是懒。不知道出于什么心理，我做事喜欢依靠别人、让别人帮忙。&lt;/p&gt;
+&lt;p&gt;当然，这个别人不是随意的，至少得是关系还不错的朋友。不然我又怎么能恳求他们。小学的时候，我总是弄丢自己的文具，然后借同桌的文具。
+最开始弄丢了文具我还会再去买，到后面，我发现每次都会弄丢，索性就不再买了。
+一直用的同桌的文具。有时候，她会生气，然后我向她撒娇，大部分时候撒娇有用，
+不过也有时候没用，那就只能整节课心惊胆战地度过了。
+我们同桌了整个小学，她是我见过的最好的同桌，遗憾的是她没有社交账号，毕业以后再也没听到过她的消息。这种特性到后来发展成了&amp;quot;try-catch&amp;quot;。简单来说，做事时，我会优先考虑找朋友帮忙，
+如果成功，那很好。
+如果失败，也没关系，我自己能做。&lt;/p&gt;
+&lt;p&gt;这很自私吗?谁知道呢。我无心从那些&amp;quot;高尚&amp;quot;的层面评判这一行为。&amp;ldquo;高尚&amp;quot;与否，谁在乎呢。
+不过，就感觉而言，我喜欢这种&amp;quot;try-catch&amp;quot;模式。
+即便我已经和以前不一样，但我偶尔仍会想起那种美好的感觉。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

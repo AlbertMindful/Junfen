@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>欢迎 on Junfen&#39;s blog</title>
+    <link>https://albertmindful.github.io/Junfen/tags/%E6%AC%A2%E8%BF%8E/</link>
+    <description>Recent content in 欢迎 on Junfen&#39;s blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 30 Nov 2025 20:16:01 +0800</lastBuildDate>
+    <atom:link href="https://albertmindful.github.io/Junfen/tags/%E6%AC%A2%E8%BF%8E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一篇blog</title>
+      <link>https://albertmindful.github.io/Junfen/posts/first-post/</link>
+      <pubDate>Sun, 30 Nov 2025 20:16:01 +0800</pubDate>
+      <guid>https://albertmindful.github.io/Junfen/posts/first-post/</guid>
+      <description>&lt;p&gt;第一次写blog。&lt;/p&gt;
+&lt;p&gt;我会把我的学习、心情、生活记录在这里。&lt;/p&gt;
+&lt;p&gt;不出意外，我会一直更新它。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
