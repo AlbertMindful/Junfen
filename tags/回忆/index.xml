@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>回忆 on Junfen&#39;s blog</title>
-    <link>https://albertmindful.github.io/Junfen/tags/%E5%9B%9E%E5%BF%86/</link>
+    <link>https://junfen.xyz/tags/%E5%9B%9E%E5%BF%86/</link>
     <description>Recent content in 回忆 on Junfen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 01 Dec 2025 20:39:13 +0800</lastBuildDate>
-    <atom:link href="https://albertmindful.github.io/Junfen/tags/%E5%9B%9E%E5%BF%86/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://junfen.xyz/tags/%E5%9B%9E%E5%BF%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据结构回忆录——链表</title>
-      <link>https://albertmindful.github.io/Junfen/posts/linked-list/</link>
+      <link>https://junfen.xyz/posts/linked-list/</link>
       <pubDate>Mon, 01 Dec 2025 20:39:13 +0800</pubDate>
-      <guid>https://albertmindful.github.io/Junfen/posts/linked-list/</guid>
+      <guid>https://junfen.xyz/posts/linked-list/</guid>
       <description>&lt;p&gt;两年前第一次接触数据结构与算法，草草了解过基础后就再也没有碰过它。这篇回忆录是关于链表的，我想写下与链表有关的那些事。&lt;/p&gt;
 &lt;p&gt;链表是我接触的第二个数据结构（第一个当然是数组）。还记得在高中的机房里，没有事情可做，就用C语言写链表打发时间。记得当时使用链表做的第一个小游戏是贪吃蛇。因为贪吃蛇的蛇是链式结构，所以很自然想到用链表，实际上，也可以用数组来做，不过C语言没有vector，使用原生数组是一件麻烦事。&lt;/p&gt;
 &lt;p&gt;来谈谈链表这种数据结构本身吧。
@@ -46,9 +46,9 @@ tree问题通常使用递归求解，因为用循环来处理较为困难且不�
     </item>
     <item>
       <title>最小用力原则</title>
-      <link>https://albertmindful.github.io/Junfen/posts/least_energe/</link>
+      <link>https://junfen.xyz/posts/least_energe/</link>
       <pubDate>Sun, 30 Nov 2025 20:34:51 +0800</pubDate>
-      <guid>https://albertmindful.github.io/Junfen/posts/least_energe/</guid>
+      <guid>https://junfen.xyz/posts/least_energe/</guid>
       <description>&lt;p&gt;我的行为一直遵循最小用力原则，简单来说就是懒。不知道出于什么心理，我做事喜欢依靠别人、让别人帮忙。&lt;/p&gt;
 &lt;p&gt;当然，这个别人不是随意的，至少得是关系还不错的朋友。不然我又怎么能恳求他们。小学的时候，我总是弄丢自己的文具，然后借同桌的文具。
 最开始弄丢了文具我还会再去买，到后面，我发现每次都会弄丢，索性就不再买了。

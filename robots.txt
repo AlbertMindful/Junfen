@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://albertmindful.github.io/Junfen/sitemap.xml
+Sitemap: https://junfen.xyz/sitemap.xml
