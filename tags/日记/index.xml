@@ -6,8 +6,15 @@
     <description>Recent content in 日记 on Junfen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 05 Dec 2025 20:37:42 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 12:26:39 +0800</lastBuildDate>
     <atom:link href="https://junfen.xyz/tags/%E6%97%A5%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重新开始</title>
+      <link>https://junfen.xyz/posts/2025-12-12/</link>
+      <pubDate>Fri, 12 Dec 2025 12:26:39 +0800</pubDate>
+      <guid>https://junfen.xyz/posts/2025-12-12/</guid>
+      <description>&lt;p&gt;最近准备重新拾起C和系统编程。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>随记</title>
       <link>https://junfen.xyz/posts/2025-12-5/</link>
